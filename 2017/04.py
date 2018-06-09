@@ -42,7 +42,7 @@ def is_anagram(word_one, word_two):
     if word_one == word_two:
         return True
 
-    # For all the characters in one word, ensure they exist in the second word.
+    # For all the characters in word one, ensure they exist in the second word.
     for c in word_one:
         if c not in word_two:
             return False
